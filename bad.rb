@@ -12,7 +12,7 @@ cgi.out("type" => "text/html", "charset" => "UTF-8") {
   "<html>
     <body>
       <p>品質が悪いゴーヤの情報は下記になります</p>
-      <a href='/test'>testページへ飛びます</a><br>
+      <a href='/'>topページへ飛びます</a><br>
       文字列：#{get}
     </body>
   </html>"

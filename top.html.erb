@@ -14,7 +14,7 @@
     <% give = [] %>
     
     <% result1.each do |record| %>
-      <%  give << "ゴーヤの大きさ：#{record["weight"]}　売った相手：#{record["give_for"]}" %>
+      <%  give << "ゴーヤの長さ：#{record["length"]}cm　ゴーヤの重さ：#{record["weight"]}g　売った相手：#{record["give_for"]}" %>
     <% end %>
 
     <form action='give.cgi' method='POST'>
@@ -29,7 +29,7 @@
     <% bad = [] %>
     
     <% result2.each do |record| %>
-      <%  bad << "ゴーヤの大きさ：#{record["weight"]}　売った相手：#{record["give_for"]}" %>
+      <%  bad << "ゴーヤの長さ：#{record["length"]}cm　ゴーヤの重さ：#{record["weight"]}g　売った相手：#{record["give_for"]}" %>
     <% end %>
 
     <form action='bad.cgi' method='POST'>
